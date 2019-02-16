@@ -76,15 +76,20 @@ h5 {
 
 .profile {
     width: 20%;
+    float: left;
 }
 
 footer {
     color: #ffffff;
     font-size: x-small;
     margin: auto;
+    width: 100%;
     border-top: 6px solid #4aaaa5;
     background-color: #666666;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0%;
 }
