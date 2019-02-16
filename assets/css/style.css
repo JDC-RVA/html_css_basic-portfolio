@@ -1,6 +1,5 @@
 * {
     color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .clearfix:after {
@@ -13,7 +12,9 @@
     color: #4aaaa5;
     padding: 20px;
     padding-left: 0;
+    padding-top: 5px;
     border-bottom: 2px solid #cccccc;
+    margin-bottom: 20px;
 }
 
 .inner-content {
@@ -41,7 +42,8 @@ header {
 
 h1 {
     float: left;
-
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 nav {
@@ -50,7 +52,10 @@ nav {
 
 #navpad {
     padding: 20px;
+    padding-top: 30px;
     padding-block-end: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 h5 {
@@ -58,6 +63,7 @@ h5 {
     margin: auto;
     padding-inline-start: 10px;
     padding-inline-end: 10px;
+    font-size: small;
 }
 
 .v1 {
@@ -74,9 +80,22 @@ h5 {
     border: 1px solid #dddddd
 }
 
+h2 {
+    font-size: xx-large;
+    font-weight: bold
+}
+
 .profile {
     width: 20%;
     float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 10px;
+    line-height: 25px;
 }
 
 footer {
@@ -92,4 +111,8 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0%;
+}
+
+body {
+    background-image: url("assets/images/white-waves.png")
 }
