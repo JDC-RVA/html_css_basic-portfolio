@@ -1,119 +1,134 @@
 * {
-    color: #777777;
+  color: #777777;
 }
 
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .aboutme {
-    color: #4aaaa5;
-    padding: 20px;
-    padding-left: 0;
-    padding-top: 5px;
-    border-bottom: 2px solid #cccccc;
-    margin-bottom: 20px;
+  color: #4aaaa5;
+  padding: 20px;
+  padding-left: 0;
+  padding-top: 5px;
+  border-bottom: 2px solid #cccccc;
+  margin-bottom: 20px;
 }
 
 .inner-content {
-    padding: 20px;
+  padding: 20px;
 }
 
 header {
-    margin-bottom: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #ffffff;
-    border-bottom: 2px solid #cccccc;
+  margin-bottom: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #ffffff;
+  border-bottom: 2px solid #cccccc;
 }
 
 .content-header {
-    margin: auto;
-    width: 960px;
-    text-align: center;
+  margin: auto;
+  width: 960px;
+  text-align: center;
 }
 .namebar {
-    margin: auto;
-    padding: 20px;
-    background-color: #4aaaa5;
-    color: #ffffff;
+  margin: auto;
+  padding: 20px;
+  background-color: #4aaaa5;
+  color: #ffffff;
 }
 
 h1 {
-    float: left;
-    font-size: xx-large;
-    font-weight: bold;
+  float: left;
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 nav {
-    float: right;
+  float: right;
+  padding: 13px;
+  padding-top: 26px;
 }
 
 #navpad {
-    padding: 20px;
-    padding-top: 30px;
-    padding-block-end: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-
+  /* padding: 20px;
+  padding-top: 30px; */
+  padding-block-end: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h5 {
-    float: left;
-    margin: auto;
-    padding-inline-start: 10px;
-    padding-inline-end: 10px;
-    font-size: small;
+  float: left;
+  margin: auto;
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
+  font-size: small;
+}
+
+a {
+  float: left;
 }
 
 .v1 {
-    float: left;
-    border-left: 1px solid #777777;
-    height: 15px;
-    margin: auto;
+  float: left;
+  border-left: 1px solid #777777;
+  height: 15px;
+  margin: auto;
 }
 
 .content {
-    margin: auto;
-    width: 960px;
-    background-color: #ffffff;
-    border: 1px solid #dddddd
+  margin: auto;
+  width: 960px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
 }
 
 h2 {
-    font-size: xx-large;
-    font-weight: bold
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 .profile {
-    width: 20%;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 10px;
-    line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 10px;
+  line-height: 25px;
 }
 
 footer {
-    color: #ffffff;
-    font-size: x-small;
-    margin: auto;
-    width: 100%;
-    border-top: 7px solid #4aaaa5;
-    background-color: #666666;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 3px;
-    position: fixed;
-    left: 0;
-    bottom: 0%;
-    font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: x-small;
+  margin: auto;
+  width: 100%;
+  border-top: 7px solid #4aaaa5;
+  background-color: #666666;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-image: url("assets/images/white-waves.png")
+  background-image: url("../images/white-waves.png");
+}
+
+/* portfolio css */
+.Port-img-L {
+  margin: 20px;
+  margin-left: 0px;
+}
+
+.Port-img-R {
+  margin: 20px;
 }
